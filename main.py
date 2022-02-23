@@ -1,14 +1,6 @@
-import kivy
-kivy.require('1.0.7')
-
-from kivy.animation import Animation
-from kivy.app import App
-from kivy.uix.button import Button
+import platform
 
 
-class TestApp(App):
-    pass
+def get_id():
+    return platform.node()
 
-
-if __name__ == '__main__':
-    Tpass
