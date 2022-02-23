@@ -1,3 +1,5 @@
 import platform
-def getid():
-    return(platform.node())
+
+
+def get_id():
+    return platform.node()
